@@ -1,0 +1,213 @@
+
+[START LOG] 
+ 
+2019-01-31 20:57:26,356 [93] ERROR - Error happened on _CommunicationDetails partial.
+ 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CVPS.Customer.InterCom.Controllers.Twilio_Controller._CommunicationOnGoingDetails() in E:\Projects\CVPS SourceTree\CVPSCustomer Source\Cvps.Customer.InterCom\Controllers\Twilio_Controller.cs:line 235
+2019-01-31 20:57:26,356 [57] ERROR - Error happened on _CommunicationDetails partial.
+ 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CVPS.Customer.InterCom.Controllers.Twilio_Controller._CommunicationOnGoingDetails() in E:\Projects\CVPS SourceTree\CVPSCustomer Source\Cvps.Customer.InterCom\Controllers\Twilio_Controller.cs:line 235
+2019-01-31 20:57:26,356 [92] ERROR - Error happened on _CommunicationDetails partial.
+ 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CVPS.Customer.InterCom.Controllers.Twilio_Controller._CommunicationOnGoingDetails() in E:\Projects\CVPS SourceTree\CVPSCustomer Source\Cvps.Customer.InterCom\Controllers\Twilio_Controller.cs:line 235
+[END LOG] 
+
+[START LOG] 
+ 
+2019-01-31 20:58:29,200 [91] ERROR - Error happened on twilio call back events.
+ 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CVPS.Customer.Business.ThirdParty.Twilio.TwilioFeatures.SaveCommunicationLog(TaskRouterModel taskRouterModel) in E:\Projects\CVPS SourceTree\CVPSCustomer Source\CVPS.Customer.Business\ThirdParty\Twilio\TwilioFeatures.cs:line 776
+   at CVPS.Customer.InterCom.Controllers.CallbackController.Events(TaskRouterModel taskRouterModel) in E:\Projects\CVPS SourceTree\CVPSCustomer Source\Cvps.Customer.InterCom\Controllers\CallbackController.cs:line 136
+2019-01-31 20:58:53,700 [94] ERROR - Error happened on twilio call back events.
+ 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CVPS.Customer.InterCom.Controllers.CallbackController.Events(TaskRouterModel taskRouterModel) in E:\Projects\CVPS SourceTree\CVPSCustomer Source\Cvps.Customer.InterCom\Controllers\CallbackController.cs:line 92
+2019-01-31 20:58:53,793 [95] INFO  - Task reservation has been rejected/timeout/canceled {"PropertyName":"Generic Property","TicketNumber":"019060","UserId":62,"DeviceId":38,"selected_product":"ProgrammableVideo 1999998","CommunicationLogID":1507,"Room_Name":"testcust636845445151242864","PropertyId":1999998,"DeviceName":"Test Entry"}
+ 
+2019-01-31 20:59:18,762 [91] ERROR - Error happened on twilio call back events.
+ 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CVPS.Customer.InterCom.Controllers.CallbackController.Events(TaskRouterModel taskRouterModel) in E:\Projects\CVPS SourceTree\CVPSCustomer Source\Cvps.Customer.InterCom\Controllers\CallbackController.cs:line 92
+2019-01-31 20:59:18,778 [87] INFO  - Task reservation has been rejected/timeout/canceled {"PropertyName":"Generic Property","TicketNumber":"019060","UserId":62,"DeviceId":38,"selected_product":"ProgrammableVideo 1999998","CommunicationLogID":1507,"Room_Name":"testcust636845445151242864","PropertyId":1999998,"DeviceName":"Test Entry"}
+ 
+2019-01-31 20:59:43,590 [57] INFO  - Task reservation has been rejected/timeout/canceled {"PropertyName":"Generic Property","TicketNumber":"019060","UserId":62,"DeviceId":38,"selected_product":"ProgrammableVideo 1999998","CommunicationLogID":1507,"Room_Name":"testcust636845445151242864","PropertyId":1999998,"DeviceName":"Test Entry"}
+ 
+2019-01-31 20:59:43,637 [87] INFO  - Video call has been timeout or canceled {"PropertyName":"Generic Property","TicketNumber":"019060","UserId":62,"DeviceId":38,"selected_product":"ProgrammableVideo 1999998","CommunicationLogID":1507,"Room_Name":"testcust636845445151242864","PropertyId":1999998,"DeviceName":"Test Entry"}
+ 
+2019-01-31 20:59:45,215 [92] ERROR - Error happened on twilio call back events.
+ 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CVPS.Customer.InterCom.Controllers.CallbackController.Events(TaskRouterModel taskRouterModel) in E:\Projects\CVPS SourceTree\CVPSCustomer Source\Cvps.Customer.InterCom\Controllers\CallbackController.cs:line 92
+2019-01-31 20:59:47,434 [51] ERROR - Error happened on twilio call back events.
+ 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CVPS.Customer.InterCom.Controllers.CallbackController.Events(TaskRouterModel taskRouterModel) in E:\Projects\CVPS SourceTree\CVPSCustomer Source\Cvps.Customer.InterCom\Controllers\CallbackController.cs:line 92
+2019-01-31 20:59:48,247 [93] ERROR - Error happened on twilio call back events.
+ 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CVPS.Customer.InterCom.Controllers.CallbackController.Events(TaskRouterModel taskRouterModel) in E:\Projects\CVPS SourceTree\CVPSCustomer Source\Cvps.Customer.InterCom\Controllers\CallbackController.cs:line 92
+2019-01-31 20:59:48,762 [87] ERROR - Error happened on twilio call back events.
+ 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CVPS.Customer.Business.ThirdParty.Twilio.TwilioFeatures.SaveCommunicationLog(TaskRouterModel taskRouterModel) in E:\Projects\CVPS SourceTree\CVPSCustomer Source\CVPS.Customer.Business\ThirdParty\Twilio\TwilioFeatures.cs:line 776
+   at CVPS.Customer.InterCom.Controllers.CallbackController.Events(TaskRouterModel taskRouterModel) in E:\Projects\CVPS SourceTree\CVPSCustomer Source\Cvps.Customer.InterCom\Controllers\CallbackController.cs:line 130
+2019-01-31 20:59:48,965 [93] ERROR - Error happened on twilio call back events.
+ 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CVPS.Customer.InterCom.Controllers.CallbackController.Events(TaskRouterModel taskRouterModel) in E:\Projects\CVPS SourceTree\CVPSCustomer Source\Cvps.Customer.InterCom\Controllers\CallbackController.cs:line 92
+2019-01-31 20:59:49,044 [91] ERROR - Error happened on twilio call back events.
+ 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CVPS.Customer.InterCom.Controllers.CallbackController.Events(TaskRouterModel taskRouterModel) in E:\Projects\CVPS SourceTree\CVPSCustomer Source\Cvps.Customer.InterCom\Controllers\CallbackController.cs:line 92
+2019-01-31 20:59:49,372 [94] DEBUG - Processing incoming call to PropertyId: 1999998 <-> UserId: 62
+ 
+2019-01-31 20:59:49,372 [94] DEBUG - GetWorkFlow for PropertyId: 1999998 <-> WorkflowId: WWd20d744a229af599f76b051533723577
+ 
+2019-01-31 20:59:52,059 [87] ERROR - Error happened on twilio call back events.
+ 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CVPS.Customer.Business.ThirdParty.Twilio.TwilioFeatures.SaveCommunicationLog(TaskRouterModel taskRouterModel) in E:\Projects\CVPS SourceTree\CVPSCustomer Source\CVPS.Customer.Business\ThirdParty\Twilio\TwilioFeatures.cs:line 776
+   at CVPS.Customer.InterCom.Controllers.CallbackController.Events(TaskRouterModel taskRouterModel) in E:\Projects\CVPS SourceTree\CVPSCustomer Source\Cvps.Customer.InterCom\Controllers\CallbackController.cs:line 136
+2019-01-31 21:00:16,528 [91] ERROR - Error happened on twilio call back events.
+ 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CVPS.Customer.InterCom.Controllers.CallbackController.Events(TaskRouterModel taskRouterModel) in E:\Projects\CVPS SourceTree\CVPSCustomer Source\Cvps.Customer.InterCom\Controllers\CallbackController.cs:line 92
+2019-01-31 21:00:16,559 [87] INFO  - Task reservation has been rejected/timeout/canceled {"called":"","api_version":"2010-04-01","PropertyId":1999998,"application_sid":"APf99170bd96ca45128bd0290496e3f284","caller":"client:Anonymous","UserId":62,"call_sid":"CA3a1105ac91489bb8aaedc2ec82086871","account_sid":"AC0bf2b372de4ae11372eea3f391b7198c","from":"client:Anonymous","CommunicationLogID":1507,"to":"","worker_call_sid":"CA1eb5e3cb1b67d520f58280df3d7a731f","direction":"inbound"}
+ 
+2019-01-31 21:00:16,622 [95] INFO  - Audio call has been timeout or canceled {"called":"","api_version":"2010-04-01","PropertyId":1999998,"application_sid":"APf99170bd96ca45128bd0290496e3f284","caller":"client:Anonymous","UserId":62,"call_sid":"CA3a1105ac91489bb8aaedc2ec82086871","account_sid":"AC0bf2b372de4ae11372eea3f391b7198c","from":"client:Anonymous","CommunicationLogID":1507,"to":"","worker_call_sid":"CA1eb5e3cb1b67d520f58280df3d7a731f","direction":"inbound"}
+ 
+2019-01-31 21:00:25,997 [95] ERROR - Error happened on twilio call back events.
+ 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CVPS.Customer.Business.ThirdParty.Twilio.TwilioFeatures.SaveCommunicationLog(TaskRouterModel taskRouterModel) in E:\Projects\CVPS SourceTree\CVPSCustomer Source\CVPS.Customer.Business\ThirdParty\Twilio\TwilioFeatures.cs:line 776
+   at CVPS.Customer.InterCom.Controllers.CallbackController.Events(TaskRouterModel taskRouterModel) in E:\Projects\CVPS SourceTree\CVPSCustomer Source\Cvps.Customer.InterCom\Controllers\CallbackController.cs:line 136
+2019-01-31 21:00:50,528 [93] ERROR - Error happened on twilio call back events.
+ 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CVPS.Customer.InterCom.Controllers.CallbackController.Events(TaskRouterModel taskRouterModel) in E:\Projects\CVPS SourceTree\CVPSCustomer Source\Cvps.Customer.InterCom\Controllers\CallbackController.cs:line 92
+2019-01-31 21:00:50,544 [95] INFO  - Task reservation has been rejected/timeout/canceled {"PropertyName":"Generic Property","TicketNumber":"019060","UserId":62,"DeviceId":38,"selected_product":"ProgrammableVideo 1999998","CommunicationLogID":1507,"Room_Name":"testcust636845446318416700","PropertyId":1999998,"DeviceName":"Test Entry"}
+ 
+2019-01-31 21:01:15,513 [87] INFO  - Task reservation has been rejected/timeout/canceled {"PropertyName":"Generic Property","TicketNumber":"019060","UserId":62,"DeviceId":38,"selected_product":"ProgrammableVideo 1999998","CommunicationLogID":1507,"Room_Name":"testcust636845446318416700","PropertyId":1999998,"DeviceName":"Test Entry"}
+ 
+2019-01-31 21:01:16,513 [92] ERROR - Error happened on twilio call back events.
+ 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CVPS.Customer.InterCom.Controllers.CallbackController.Events(TaskRouterModel taskRouterModel) in E:\Projects\CVPS SourceTree\CVPSCustomer Source\Cvps.Customer.InterCom\Controllers\CallbackController.cs:line 92
+2019-01-31 21:01:40,450 [92] INFO  - Task reservation has been rejected/timeout/canceled {"PropertyName":"Generic Property","TicketNumber":"019060","UserId":62,"DeviceId":38,"selected_product":"ProgrammableVideo 1999998","CommunicationLogID":1507,"Room_Name":"testcust636845446318416700","PropertyId":1999998,"DeviceName":"Test Entry"}
+ 
+2019-01-31 21:01:40,481 [78] INFO  - Video call has been timeout or canceled {"PropertyName":"Generic Property","TicketNumber":"019060","UserId":62,"DeviceId":38,"selected_product":"ProgrammableVideo 1999998","CommunicationLogID":1507,"Room_Name":"testcust636845446318416700","PropertyId":1999998,"DeviceName":"Test Entry"}
+ 
+2019-01-31 21:01:42,059 [87] ERROR - Error happened on twilio call back events.
+ 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CVPS.Customer.InterCom.Controllers.CallbackController.Events(TaskRouterModel taskRouterModel) in E:\Projects\CVPS SourceTree\CVPSCustomer Source\Cvps.Customer.InterCom\Controllers\CallbackController.cs:line 92
+2019-01-31 21:01:44,450 [87] ERROR - Error happened on twilio call back events.
+ 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CVPS.Customer.InterCom.Controllers.CallbackController.Events(TaskRouterModel taskRouterModel) in E:\Projects\CVPS SourceTree\CVPSCustomer Source\Cvps.Customer.InterCom\Controllers\CallbackController.cs:line 92
+2019-01-31 21:01:44,825 [87] ERROR - Error happened on twilio call back events.
+ 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CVPS.Customer.InterCom.Controllers.CallbackController.Events(TaskRouterModel taskRouterModel) in E:\Projects\CVPS SourceTree\CVPSCustomer Source\Cvps.Customer.InterCom\Controllers\CallbackController.cs:line 92
+2019-01-31 21:01:45,716 [87] ERROR - Error happened on twilio call back events.
+ 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CVPS.Customer.InterCom.Controllers.CallbackController.Events(TaskRouterModel taskRouterModel) in E:\Projects\CVPS SourceTree\CVPSCustomer Source\Cvps.Customer.InterCom\Controllers\CallbackController.cs:line 92
+2019-01-31 21:01:45,794 [78] ERROR - Error happened on twilio call back events.
+ 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CVPS.Customer.Business.ThirdParty.Twilio.TwilioFeatures.SaveCommunicationLog(TaskRouterModel taskRouterModel) in E:\Projects\CVPS SourceTree\CVPSCustomer Source\CVPS.Customer.Business\ThirdParty\Twilio\TwilioFeatures.cs:line 776
+   at CVPS.Customer.InterCom.Controllers.CallbackController.Events(TaskRouterModel taskRouterModel) in E:\Projects\CVPS SourceTree\CVPSCustomer Source\Cvps.Customer.InterCom\Controllers\CallbackController.cs:line 130
+2019-01-31 21:01:46,059 [87] ERROR - Error happened on twilio call back events.
+ 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CVPS.Customer.InterCom.Controllers.CallbackController.Events(TaskRouterModel taskRouterModel) in E:\Projects\CVPS SourceTree\CVPSCustomer Source\Cvps.Customer.InterCom\Controllers\CallbackController.cs:line 92
+2019-01-31 21:01:46,138 [92] DEBUG - Processing incoming call to PropertyId: 1999998 <-> UserId: 62
+ 
+2019-01-31 21:01:46,138 [92] DEBUG - GetWorkFlow for PropertyId: 1999998 <-> WorkflowId: WWd20d744a229af599f76b051533723577
+ 
+2019-01-31 21:01:48,731 [87] ERROR - Error happened on twilio call back events.
+ 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CVPS.Customer.Business.ThirdParty.Twilio.TwilioFeatures.SaveCommunicationLog(TaskRouterModel taskRouterModel) in E:\Projects\CVPS SourceTree\CVPSCustomer Source\CVPS.Customer.Business\ThirdParty\Twilio\TwilioFeatures.cs:line 776
+   at CVPS.Customer.InterCom.Controllers.CallbackController.Events(TaskRouterModel taskRouterModel) in E:\Projects\CVPS SourceTree\CVPSCustomer Source\Cvps.Customer.InterCom\Controllers\CallbackController.cs:line 136
+2019-01-31 21:02:13,341 [92] INFO  - Task reservation has been rejected/timeout/canceled {"called":"","api_version":"2010-04-01","PropertyId":1999998,"application_sid":"APf99170bd96ca45128bd0290496e3f284","caller":"client:Anonymous","UserId":62,"call_sid":"CAfac37ea9412c31c22b2158de7b38a505","account_sid":"AC0bf2b372de4ae11372eea3f391b7198c","from":"client:Anonymous","CommunicationLogID":1507,"to":"","worker_call_sid":"CA08a1bdcd978fb4f30a4026c7f38249ca","direction":"inbound"}
+ 
+2019-01-31 21:02:13,356 [87] ERROR - Error happened on twilio call back events.
+ 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CVPS.Customer.InterCom.Controllers.CallbackController.Events(TaskRouterModel taskRouterModel) in E:\Projects\CVPS SourceTree\CVPSCustomer Source\Cvps.Customer.InterCom\Controllers\CallbackController.cs:line 92
+2019-01-31 21:02:13,388 [78] INFO  - Audio call has been timeout or canceled {"called":"","api_version":"2010-04-01","PropertyId":1999998,"application_sid":"APf99170bd96ca45128bd0290496e3f284","caller":"client:Anonymous","UserId":62,"call_sid":"CAfac37ea9412c31c22b2158de7b38a505","account_sid":"AC0bf2b372de4ae11372eea3f391b7198c","from":"client:Anonymous","CommunicationLogID":1507,"to":"","worker_call_sid":"CA08a1bdcd978fb4f30a4026c7f38249ca","direction":"inbound"}
+ 
+2019-01-31 21:02:23,106 [92] ERROR - Error happened on twilio call back events.
+ 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CVPS.Customer.Business.ThirdParty.Twilio.TwilioFeatures.SaveCommunicationLog(TaskRouterModel taskRouterModel) in E:\Projects\CVPS SourceTree\CVPSCustomer Source\CVPS.Customer.Business\ThirdParty\Twilio\TwilioFeatures.cs:line 776
+   at CVPS.Customer.InterCom.Controllers.CallbackController.Events(TaskRouterModel taskRouterModel) in E:\Projects\CVPS SourceTree\CVPSCustomer Source\Cvps.Customer.InterCom\Controllers\CallbackController.cs:line 136
+2019-01-31 21:02:47,575 [92] ERROR - Error happened on twilio call back events.
+ 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CVPS.Customer.InterCom.Controllers.CallbackController.Events(TaskRouterModel taskRouterModel) in E:\Projects\CVPS SourceTree\CVPSCustomer Source\Cvps.Customer.InterCom\Controllers\CallbackController.cs:line 92
+2019-01-31 21:02:47,622 [92] INFO  - Task reservation has been rejected/timeout/canceled {"PropertyName":"Generic Property","TicketNumber":"019060","UserId":62,"DeviceId":38,"selected_product":"ProgrammableVideo 1999998","CommunicationLogID":1507,"Room_Name":"testcust636845447486936231","PropertyId":1999998,"DeviceName":"Test Entry"}
+ 
+2019-01-31 21:03:12,622 [78] ERROR - Error happened on twilio call back events.
+ 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CVPS.Customer.InterCom.Controllers.CallbackController.Events(TaskRouterModel taskRouterModel) in E:\Projects\CVPS SourceTree\CVPSCustomer Source\Cvps.Customer.InterCom\Controllers\CallbackController.cs:line 92
+2019-01-31 21:03:12,700 [87] INFO  - Task reservation has been rejected/timeout/canceled {"PropertyName":"Generic Property","TicketNumber":"019060","UserId":62,"DeviceId":38,"selected_product":"ProgrammableVideo 1999998","CommunicationLogID":1507,"Room_Name":"testcust636845447486936231","PropertyId":1999998,"DeviceName":"Test Entry"}
+ 
+2019-01-31 21:03:37,513 [87] INFO  - Video call has been timeout or canceled {"PropertyName":"Generic Property","TicketNumber":"019060","UserId":62,"DeviceId":38,"selected_product":"ProgrammableVideo 1999998","CommunicationLogID":1507,"Room_Name":"testcust636845447486936231","PropertyId":1999998,"DeviceName":"Test Entry"}
+ 
+2019-01-31 21:03:37,575 [78] INFO  - Task reservation has been rejected/timeout/canceled {"PropertyName":"Generic Property","TicketNumber":"019060","UserId":62,"DeviceId":38,"selected_product":"ProgrammableVideo 1999998","CommunicationLogID":1507,"Room_Name":"testcust636845447486936231","PropertyId":1999998,"DeviceName":"Test Entry"}
+ 
+2019-01-31 21:03:39,185 [92] ERROR - Error happened on twilio call back events.
+ 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CVPS.Customer.InterCom.Controllers.CallbackController.Events(TaskRouterModel taskRouterModel) in E:\Projects\CVPS SourceTree\CVPSCustomer Source\Cvps.Customer.InterCom\Controllers\CallbackController.cs:line 92
+2019-01-31 21:03:41,200 [78] ERROR - Error happened on twilio call back events.
+ 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CVPS.Customer.InterCom.Controllers.CallbackController.Events(TaskRouterModel taskRouterModel) in E:\Projects\CVPS SourceTree\CVPSCustomer Source\Cvps.Customer.InterCom\Controllers\CallbackController.cs:line 92
+2019-01-31 21:03:41,997 [78] ERROR - Error happened on twilio call back events.
+ 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CVPS.Customer.InterCom.Controllers.CallbackController.Events(TaskRouterModel taskRouterModel) in E:\Projects\CVPS SourceTree\CVPSCustomer Source\Cvps.Customer.InterCom\Controllers\CallbackController.cs:line 92
+2019-01-31 21:03:42,575 [87] ERROR - Error happened on twilio call back events.
+ 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CVPS.Customer.Business.ThirdParty.Twilio.TwilioFeatures.SaveCommunicationLog(TaskRouterModel taskRouterModel) in E:\Projects\CVPS SourceTree\CVPSCustomer Source\CVPS.Customer.Business\ThirdParty\Twilio\TwilioFeatures.cs:line 776
+   at CVPS.Customer.InterCom.Controllers.CallbackController.Events(TaskRouterModel taskRouterModel) in E:\Projects\CVPS SourceTree\CVPSCustomer Source\Cvps.Customer.InterCom\Controllers\CallbackController.cs:line 130
+2019-01-31 21:03:42,591 [87] ERROR - Error happened on twilio call back events.
+ 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CVPS.Customer.InterCom.Controllers.CallbackController.Events(TaskRouterModel taskRouterModel) in E:\Projects\CVPS SourceTree\CVPSCustomer Source\Cvps.Customer.InterCom\Controllers\CallbackController.cs:line 92
+2019-01-31 21:03:42,841 [78] ERROR - Error happened on twilio call back events.
+ 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CVPS.Customer.InterCom.Controllers.CallbackController.Events(TaskRouterModel taskRouterModel) in E:\Projects\CVPS SourceTree\CVPSCustomer Source\Cvps.Customer.InterCom\Controllers\CallbackController.cs:line 92
+2019-01-31 21:03:42,919 [87] DEBUG - Processing incoming call to PropertyId: 1999998 <-> UserId: 62
+ 
+2019-01-31 21:03:42,919 [87] DEBUG - GetWorkFlow for PropertyId: 1999998 <-> WorkflowId: WWd20d744a229af599f76b051533723577
+ 
+2019-01-31 21:03:45,888 [78] ERROR - Error happened on twilio call back events.
+ 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CVPS.Customer.Business.ThirdParty.Twilio.TwilioFeatures.SaveCommunicationLog(TaskRouterModel taskRouterModel) in E:\Projects\CVPS SourceTree\CVPSCustomer Source\CVPS.Customer.Business\ThirdParty\Twilio\TwilioFeatures.cs:line 776
+   at CVPS.Customer.InterCom.Controllers.CallbackController.Events(TaskRouterModel taskRouterModel) in E:\Projects\CVPS SourceTree\CVPSCustomer Source\Cvps.Customer.InterCom\Controllers\CallbackController.cs:line 136
+2019-01-31 21:04:10,122 [78] INFO  - Audio call has been timeout or canceled {"called":"","api_version":"2010-04-01","PropertyId":1999998,"application_sid":"APf99170bd96ca45128bd0290496e3f284","caller":"client:Anonymous","UserId":62,"call_sid":"CAc9cc4c84182d3635dd63ff314679b03c","account_sid":"AC0bf2b372de4ae11372eea3f391b7198c","from":"client:Anonymous","CommunicationLogID":1507,"to":"","worker_call_sid":"CA240df5914da6df3c97536aff0bbb6591","direction":"inbound"}
+ 
+2019-01-31 21:04:10,153 [92] ERROR - Error happened on twilio call back events.
+ 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CVPS.Customer.InterCom.Controllers.CallbackController.Events(TaskRouterModel taskRouterModel) in E:\Projects\CVPS SourceTree\CVPSCustomer Source\Cvps.Customer.InterCom\Controllers\CallbackController.cs:line 92
+2019-01-31 21:04:10,185 [92] INFO  - Task reservation has been rejected/timeout/canceled {"called":"","api_version":"2010-04-01","PropertyId":1999998,"application_sid":"APf99170bd96ca45128bd0290496e3f284","caller":"client:Anonymous","UserId":62,"call_sid":"CAc9cc4c84182d3635dd63ff314679b03c","account_sid":"AC0bf2b372de4ae11372eea3f391b7198c","from":"client:Anonymous","CommunicationLogID":1507,"to":"","worker_call_sid":"CA240df5914da6df3c97536aff0bbb6591","direction":"inbound"}
+ 
+2019-01-31 21:04:17,435 [92] ERROR - Error happened on twilio call back events.
+ 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CVPS.Customer.InterCom.Controllers.CallbackController.Events(TaskRouterModel taskRouterModel) in E:\Projects\CVPS SourceTree\CVPSCustomer Source\Cvps.Customer.InterCom\Controllers\CallbackController.cs:line 92
+[END LOG] 
